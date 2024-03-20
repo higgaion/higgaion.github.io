@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.container {
+    max-height: 100%;
+    margin: 2em;
+    gap: 2em;
+}
+
+#welcome-section {
+    min-height: auto;
+    height: 90vh;
+    text-align: center;
+}
+
+#welcome-section .container {
+    column-gap: 5em; /* Will apply on large screen */
+    row-gap: 0; /* Will apply on small screens due to wrap */
+}
+
+#welcome {
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+
+
+.p-section {
+    background-color: rgb(255, 240, 240);
+}
+
+.p-section .container {
+    margin: 3em;
+    align-content: center;
+}
+
+.p-section p {
+    font-size: 1.75rem;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+}
+
+.p-section p:nth-of-type(1) {
+    text-indent: 25px;
+}
+
+.p-section p:nth-of-type(n+2) {
+    text-indent: 10px;
+}
+
+.p-section p:nth-of-type(1):first-letter {
+    font-weight: 500;
+    font-size: 3em;
+}
+
+.p-section:last-of-type {
+    background-color: white !important;
+}
+
+.p-section:last-of-type p:nth-of-type(1):first-letter {
+    font-weight: 200 !important;
+    font-size: 1em;
+}
+
+#skill-logo-section {
+    min-height: 120vh;
+}
+
+.logo-section .container  {
+    display: grid;
+    /* Next two lines for mobile, will remove columns */
+    grid-auto-flow: row;
+    grid-auto-rows: 250px;
+    grid-template-columns: repeat(4, 250px);
+    justify-items: center;
+    align-items: center;
+    gap: 5em;
+    margin: 0 2em;
+}
+
+.logo-section .container * {
+    width: 250px;
+}
+
+.w-75 {
+    width: 75px !important;
+}
