@@ -44,10 +44,9 @@ body {
       "wdth" 100;
 }
 
-
-
 .p-section {
-    background-color: rgb(255, 240, 240);
+    background-color: #132A65;
+    color: rgb(255, 241, 214);
 }
 
 .p-section .container {
@@ -72,10 +71,6 @@ body {
 .p-section p:nth-of-type(1):first-letter {
     font-weight: 500;
     font-size: 3em;
-}
-
-.p-section:last-of-type {
-    background-color: white !important;
 }
 
 .p-section:last-of-type p:nth-of-type(1):first-letter {
