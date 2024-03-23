@@ -1,0 +1,24 @@
+{
+  "name": "public_site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "postcss-easing-gradients": "^3.0.1",
+    "postcss-import": "^16.1.0"
+  },
+  "scripts": {
+    "postcss:watch": "postcss css/style.css -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/higgaion/higgaion.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/higgaion/higgaion.github.io/issues"
+  },
+  "homepage": "https://github.com/higgaion/higgaion.github.io#readme",
+  "description": ""
+}

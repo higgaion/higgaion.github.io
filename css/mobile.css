@@ -21,6 +21,14 @@
         min-height: 150vh !important;
     }
 
+    .p-section .container {
+        margin: 3em 3em !important;
+    }
+
+    .p-section p {
+        font-size: 1em !important;
+    }
+
     @media (height <= 700px) {
 
         #greeting-section {
