@@ -29,6 +29,10 @@
         font-size: 1em !important;
     }
 
+    #hero-logo-container {
+        width: 100% !important;
+    }
+
     @media (height <= 700px) {
 
         #greeting-section {
